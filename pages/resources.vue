@@ -14,7 +14,7 @@
       <div class="space-y-3">
         <h2 class="text-xl font-semibold text-zinc-200">🗺️ Онлайн-карта</h2>
         <p class="text-zinc-400">Карта сервера доступна по ссылке:</p>
-        <a href="https://yourmap.example.com" target="_blank" class="text-blue-500 hover:text-blue-400 transition">
+        <a href="http://rs1.joinserver.xyz:25936" target="_blank" class="text-blue-500 hover:text-blue-400 transition">
           Открыть карту
         </a>
       </div>
@@ -22,8 +22,8 @@
       <div class="space-y-3">
         <h2 class="text-xl font-semibold text-zinc-200">💬 Общение и помощь</h2>
         <ul class="list-disc list-inside text-zinc-400 space-y-1">
-          <li><a href="https://discord.gg/yourinvite" class="text-blue-500 hover:text-blue-400 transition">Наш Discord</a></li>
-          <li><a href="https://wiki.yourserver.com" class="text-blue-500 hover:text-blue-400 transition">Вики по сборке</a></li>
+          <li><a href="" class="text-blue-500 hover:text-blue-400 transition">Наш Discord[скоро]</a></li>
+          <li><a href="" class="text-blue-500 hover:text-blue-400 transition">Вики по сборке[скоро]</a></li>
         </ul>
       </div>
     </section>
