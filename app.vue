@@ -6,7 +6,7 @@
         <svg width="24" height="20" viewBox="0 0 39 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
           <path d="M19.5 2H3L19.5 29.5L36 2H19.5Z" stroke="white" stroke-width="3"/>
         </svg>
-        <span>DELTA</span>
+        <span>DELTA  Rune?</span>
       </NuxtLink>
       <nav class="space-x-4 text-sm">
         <NuxtLink to="/rules" class="hover:text-blue-400 transition">Правила</NuxtLink>
