@@ -5,9 +5,9 @@
       <div class="space-y-3">
         <h2 class="text-xl font-semibold text-zinc-200">📦 Клиентская сборка</h2>
         <ul class="list-disc list-inside text-zinc-400 space-y-1">
-          <li><a href="https://drive.google.com/yourlink" class="text-blue-500 hover:text-blue-400 transition">Google Drive</a></li>
-          <li><a href="https://disk.yandex.ru/yourlink" class="text-blue-500 hover:text-blue-400 transition">Yandex Disk</a></li>
-          <li><a href="https://curseforge.com/yourmodpack" class="text-blue-500 hover:text-blue-400 transition">CurseForge</a></li>
+          <li><a href="https://drive.google.com/file/d/1F0xgZz4O258fb_-k3kqrfTBcHBwgYjwy/view?usp=sharing" class="text-blue-500 hover:text-blue-400 transition">Google Drive</a></li>
+          <li><a href="https://www.dropbox.com/scl/fi/eswhjwthyd64iwmr2ugke/delta-1.5.zip?rlkey=u4eo0ka83awvh3yekww0fgmq3&st=o4x5sffr&dl=1" class="text-blue-500 hover:text-blue-400 transition">Dropbox</a></li>
+          <li><a href="" class="text-blue-500 hover:text-blue-400 transition">CDN[скоро]</a></li>
         </ul>
       </div>
   
