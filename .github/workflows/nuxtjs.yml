@@ -1,8 +1,8 @@
-name: Deploy Nuxt site to Pages
+name: Deploy Nuxt Site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["gh-pages"]
   workflow_dispatch:
 
 permissions:
@@ -18,28 +18,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "pnpm"
+          node-version: '20'
 
-      - name: Install pnpm
-        run: npm install -g pnpm
+      - name: Enable Corepack and install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Generate static site
-        run: pnpm generate
+        run: pnpm run generate
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: .output/public  # ⚠️ ВАЖНО: именно сюда Nuxt складывает статику при preset: github_pages
 
   deploy:
     needs: build
