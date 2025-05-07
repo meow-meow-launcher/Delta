@@ -5,8 +5,8 @@
       <div class="space-y-3">
         <h2 class="text-xl font-semibold text-zinc-200">📦 Клиентская сборка</h2>
         <ul class="list-disc list-inside text-zinc-400 space-y-1">
-          <li><a href="https://drive.google.com/file/d/1F0xgZz4O258fb_-k3kqrfTBcHBwgYjwy/view?usp=sharing" class="text-blue-500 hover:text-blue-400 transition">Google Drive</a></li>
-          <li><a href="https://www.dropbox.com/scl/fi/eswhjwthyd64iwmr2ugke/delta-1.5.zip?rlkey=u4eo0ka83awvh3yekww0fgmq3&st=o4x5sffr&dl=1" class="text-blue-500 hover:text-blue-400 transition">Dropbox</a></li>
+          <li><a href="https://drive.google.com/file/d/1pNO-2qMKfna1_QuTdsNl0uRh0bcKsZgM/view?usp=sharing" class="text-blue-500 hover:text-blue-400 transition">Google Drive</a></li>
+          <li><a href="https://www.dropbox.com/scl/fi/xmnbmyfb37loyqeqwn92q/Delta-1.6.zip?rlkey=n56j06cggq3f6z40179xt0nco&st=wooemhnl&dl=1" class="text-blue-500 hover:text-blue-400 transition">Dropbox</a></li>
           <li><a href="" class="text-blue-500 hover:text-blue-400 transition">CDN[скоро]</a></li>
         </ul>
       </div>
